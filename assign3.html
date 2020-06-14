@@ -4,6 +4,7 @@
 	<title>assign3</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="first.css">
+	<div class="container">
 	<h1>SIGN-UP
 	</h1>
 	<h2>Register</h2>
@@ -11,7 +12,8 @@
 </head>
 <body>
 	<form >
-	<label for="username">First name:</label>
+		<div>
+		<label for="username">First name:</label>
 		<input id="username" type="First name" placeholder="First name" required>
 		<label for="username">Last name:</label>
 		<input id="username" type="Last name" placeholder="last name" required>
@@ -23,12 +25,13 @@
 		<label for="username">Email:</label>
 		<input id="username" type="email" placeholder=" your email" required>
 		<label for="password">password:</label>
-		<input id="password" type="password" placeholder="password" minlength="5" maxlength="10" "size="10">
+		<input id="password" type="password" placeholder="password"  minlength="5" maxlength="10" size="10" required>
 		<p>
-			<label for="username">Phone Number:</label>
-		<input id="username" type="Phone Number" required></p>
+			<label for="Number">Phone Number:</label>
+		<input id="Number" type="Number" required></p>
 		<p>I agree to the terms and conditions
 			<input type="checkbox"></p>
+		</div>
 			<div class="btn-group btn-group-sm">
 				<div class="btn-group">
 					<button type="button" class="btn btn-danger">SIGN-UP</button>
@@ -37,6 +40,7 @@
 					<button type="button" class="btn btn-default">CANCEL</button>
 				</div>
 			</div>
+		</div>
 
 
 		<!--button id="special">sign-up</button> <button id="special">cancel</button-->
