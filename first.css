@@ -1,0 +1,36 @@
+
+
+h1{
+	color:blue;
+	font-family:cursive;
+}
+h2{
+	color:rgba(11,55,153,1);
+}
+body{
+	
+	/*background-image: url(pic4.jpg);
+	background-repeat:no-repeat;
+
+	
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    border-left: 3px solid black
+    border-right:3px solid black;
+
+    border:3px groove green;
+    width:70% ;
+    
+    padding-bottom: 20px;*/
+    background-color: pink;
+    text-align: center;
+}
+/*p{
+	color:blue;
+}
+#special{
+	color:green;
+}*/
+.ready{
+	color:rbg(252,186,3);
+}

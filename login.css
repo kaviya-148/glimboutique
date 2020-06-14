@@ -1,0 +1,14 @@
+.read{
+	text-align: center;
+	border: 0px solid black;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 30px;
+	padding-top: 120px;
+}
+body{
+	background-color: pink;
+	background-image: url(pic9.jpg);
+	background-size: 1400px 800px;
+	background-repeat: no-repeat;: 
+}
